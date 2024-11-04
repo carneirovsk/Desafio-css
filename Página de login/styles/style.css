@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 0.9em;
+    font-weight: 600; 
+    color: #333;
+
+}
+
+main {
+    background-color: #752ee8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: start;
+    width: 418px;
+    height: 75vh;
+    border-radius: 10px;
+
+}
+
+#continuar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    text-align: center;
+}
+
+#continuar h1, #login h1 {
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 600; 
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.botao_continuar {
+    background-color: #e3d5fa;
+    color: #8d859a;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 0.7em; 
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 220px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: background-color 0.5s ease;
+    letter-spacing: 0.3px;
+}
+
+.botao_continuar:hover {
+    background-color: #d3c5f0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.dados {
+    width: 100%;
+    max-width: 220px;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: #cec4e0;
+    background-color: #482481;
+    border: 1.5px solid #cec4e0;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #dad3e5;
+    padding-left: 10px;
+    font-weight: 550;
+}
+
+#botao_entrar {
+    background-color: #949494;
+    color: #e7e7e7;
+    border-radius: 18px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    max-width: 220px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#botao_entrar:hover {
+    background-color: #7a7a7a;
+
+}
+
+#img_incode {
+    height: 60px;
+}
+.img_btn{
+    height: 100%;
+    max-height: 25px;
+    margin-right: 25px;
+}
