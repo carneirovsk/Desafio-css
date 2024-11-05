@@ -31,6 +31,7 @@ header p {
     font-size: 0.85em;
     font-weight: 700; 
     color: #000000;
+    letter-spacing: 0.5px;
 
 }
 
@@ -74,6 +75,7 @@ main {
     font-weight: 600; 
     margin-bottom: 10px;
     margin-left: -30px;
+    letter-spacing: 0.5px;
 }
 
 #login h1 {
@@ -82,16 +84,19 @@ main {
     font-weight: 600; 
     margin-bottom: 10px;
     margin-left: -30px;
+    letter-spacing: 0.5px;
+
 }
 
 .botao_continuar {
     background-color: #e3d5fa;
     color: #80798c;
     border: 1px solid #ffffff;
+    font-family: "Inter Tight", sans-serif;
     border-radius: 8px;
     padding: 8px 10px;
     font-size: 0.7em; 
-    font-weight: 550;
+    font-weight: 600;
     cursor: pointer;
     margin: 10px 0;
     width: 100%;
@@ -100,6 +105,7 @@ main {
     align-items: center; 
     justify-content: center; 
     transition: background-color 0.5s ease;
+    letter-spacing: 0.4px;
 }
 
 .botao_continuar:hover {
@@ -124,6 +130,7 @@ form {
     border: 1px solid #ffffff;
     font-size: 0.8em;
     font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 ::placeholder {
