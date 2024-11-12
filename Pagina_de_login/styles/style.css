@@ -44,7 +44,7 @@ main {
     padding-top: 25px;
     justify-content: start;
     width: 400px;
-    height: 525px;
+    height: 530px;
     border-radius: 15px;
     box-sizing: border-box; 
 
@@ -62,7 +62,7 @@ main {
 #login {
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     align-items: center;
     width: 85%;
     text-align: center;
